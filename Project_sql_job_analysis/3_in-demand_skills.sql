@@ -1,10 +1,4 @@
-/* What are the most in demand skills for data analytics ?
-join job postings date to inner join table similar to query to 2
-identify the top 5 in demand skills for data analyst.
-focus on all job postings.
-why? retrieve the top 5 skills with the highest demand in the job market,
-providing insights into the most valueable skills fro job seekers
-*/
+
 
 SELECT sd.skills,
         COUNT(j.job_id) AS demand_count
