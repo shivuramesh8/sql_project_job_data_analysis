@@ -28,7 +28,7 @@ The dataset contains job and salary information for many different job roles. In
 To identify the highest-paying data analyst jobs, the data was filtered to include only data analyst roles located in Bengaluru. Records with missing yearly salary values were excluded to ensure the analysis focused only on relevant job postings.
 
 **SQL query:**  
-[View SQL query](/sql_data_analysis/Project_sql/top_paying_jobs.sql)
+[View SQL query](Project_sql_job_analysis/1_top_paying_jobs.sql)
 
 **Result:**  
 The highest-paying data analytics jobs include Data Architect positions, which appear at the top of the salary range. Companies such as Bosch Group appear multiple times among the top-paying job listings.
@@ -40,7 +40,7 @@ The highest-paying data analytics jobs include Data Architect positions, which a
 From these, I selected the top 10 highest-paying jobs and then joined them with the skills data to see which skills are required for these high-paying Data Analyst roles.
 
 **SQL query:**  
-[View SQL query](/sql_data_analysis/Project_sql/top_paying_job_skills.sql)
+[View SQL query](Project_sql_job_analysis/2_skills_for_top_paying_jobs.sql)
 
 **Result:**
 SQL and Python are the most frequently required skills for top-paying Data Analyst roles in Bengaluru, followed by database technologies, cloud platforms, and BI tools.
@@ -55,7 +55,7 @@ After filtering, I grouped the data by skill and counted the number of job posti
 Finally, I sorted the skills by their job count in descending order and limited the results to the top 5 most in-demand skills.
 
 **SQL query:**  
-[View SQL query](/sql_data_analysis/Project_sql/top_demanding_skills.sql)
+[View SQL query](Project_sql_job_analysis/3_in-demand_skills.sql)
 
 **Result:**
 SQL is the most in-demand skill for remote Data Analyst roles, followed by Excel, Python, Tableau, power bi
@@ -69,7 +69,7 @@ Next, I grouped the data by skill and calculated the average yearly salary for e
 Finally, I sorted the skills by average salary in descending order to identify the skills associated with the highest average pay.
 
 **SQL query:**  
-[View SQL query](/sql_data_analysis/Project_sql/4_top_paying_skills.sql)
+[View SQL query](Project_sql_job_analysis/4_top_paying_skills.sql)
 
 **Result:**
 - PySpark stands out with the highest average salary, which shows how valuable big-data skills are in the job market.
@@ -86,7 +86,7 @@ I applied a condition to keep only skills that appear in more than five job post
 Finally, I sorted the results by average salary and job count in descending order.
 
 **SQL query:**  
-[View SQL query](/sql_data_analysis/Project_sql/5_optimal_skills(2).sql)
+[View SQL query](Project_sql_job_analysis/5_optimal_skills.sql)
 
 **Result:**
 - Skills such as Go, Hadoop, Snowflake, Azure, AWS, and BigQuery are linked to higher average salaries, even though the number of job postings is moderate.
