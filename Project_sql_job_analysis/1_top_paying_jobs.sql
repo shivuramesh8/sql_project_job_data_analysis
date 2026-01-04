@@ -1,9 +1,4 @@
-/*
-question 1 What are the top paying data analyst roles ?
-2.Identify the top 5 highest paying data analyst roles that are currently remote (work from home).
-3.Focuses on the job postings with specified salary (remove nulls)
-4.Why highlight the top-paying opportunities for data analysts, offering insights into 
-*/
+
 
 SELECT
     j.job_id,
